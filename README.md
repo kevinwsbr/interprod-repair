@@ -1,10 +1,8 @@
 # Interprocedural Vulnerability Research Pipeline
 
-This repository contains a research workflow for analyzing interprocedural (cross-file) vulnerability relationships in CVE fix data.
+This repository contains a research workflow for analyzing interprocedural (cross-file) vulnerability relationships in CVE repair data:
 
-## What this repo does
-
-- Extracts vulnerable and fixed code records from a PostgreSQL-backed dataset.
+- Extracts vulnerable and fixed code records from VulnFixes dataset.
 - Builds two-file interprocedural CVE examples.
 - Detects call relationships with Tree-sitter and Python AST analysis.
 - Scores call/diff impact and directional dependencies.
