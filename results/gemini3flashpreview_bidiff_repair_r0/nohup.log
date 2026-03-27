@@ -1,0 +1,72 @@
+nohup: ignoring input
+⚠ Cost estimation disabled (token counts still recorded).
+Loaded 62 manifest rows
+Results file: results/prepared_runs/gemini3flashpreview_bidiff_repair_r0/results.jsonl
+Completed rounds already present: 0
+Experiments with saved API failures: 0
+[   1/62] baseline::CVE-2016-10375::VERSION::queuepush.c     round 0 tokens=242 cost=$0.000000
+[   2/62] baseline::CVE-2020-15173::l2tp_prot.h::packet.c    round 0 tokens=792 cost=$0.000000
+[   3/62] baseline::CVE-2022-1629::textobject.c::version.c   round 0 tokens=4088 cost=$0.000000
+[   4/62] baseline::CVE-2021-34121::toc.cxx::util.cxx        round 0 tokens=3733 cost=$0.000000
+[   5/62] baseline::CVE-2022-31147::core.js::url2.js         round 0 tokens=3296 cost=$0.000000
+[   6/62] baseline::CVE-2022-35967::quantized_activation_ops round 0 tokens=1753 cost=$0.000000
+[   7/62] baseline::CVE-2013-3076::algif_hash.c::algif_skcip round 0 tokens=3044 cost=$0.000000
+[   8/62] baseline::CVE-2023-2950::OnsiteDocumentController. round 0 tokens=2993 cost=$0.000000
+[   9/62] baseline::CVE-2022-35977::sort.c::t_string.c       round 0 tokens=3155 cost=$0.000000
+[  10/62] baseline::CVE-2015-5232::config_diff.sh::config_ge round 0 tokens=1468 cost=$0.000000
+[  11/62] baseline::CVE-2022-24863::ci.yml::swagger.go       round 0 tokens=484 cost=$0.000000
+[  12/62] baseline::CVE-2021-21296::endpoint_campaigns.go::s round 0 tokens=1480 cost=$0.000000
+[  13/62] baseline::CVE-2020-26289::date-and-time.js::date-a round 0 tokens=3230 cost=$0.000000
+[  14/62] baseline::CVE-2023-25801::fractional_avg_pool_op.c round 0 tokens=3321 cost=$0.000000
+[  15/62] baseline::CVE-2022-1031::fcn.c::var.c              round 0 tokens=4497 cost=$0.000000
+[  16/62] baseline::CVE-2021-3429::cc_set_passwords.py::util round 0 tokens=2778 cost=$0.000000
+[  17/62] baseline::CVE-2022-0645::decide.py::urls.py        round 0 tokens=1898 cost=$0.000000
+[  18/62] baseline::CVE-2019-6009::login_filter.rb::login_fi round 0 tokens=763 cost=$0.000000
+[  19/62] baseline::CVE-2021-39187::MongoStorageAdapter.js:: round 0 tokens=2989 cost=$0.000000
+[  20/62] baseline::CVE-2014-4678::__init__.py::constants.py round 0 tokens=3132 cost=$0.000000
+[  21/62] baseline::CVE-2021-32066::imap.rb::version.h       round 0 tokens=3324 cost=$0.000000
+[  22/62] baseline::CVE-2020-36190::ra.nested-form-hooks.js: round 0 tokens=1117 cost=$0.000000
+[  23/62] baseline::CVE-2023-2327::date.js::datetime.js      round 0 tokens=1580 cost=$0.000000
+[  24/62] baseline::CVE-2022-22114::app.js::app.js           round 0 tokens=3252 cost=$0.000000
+[  25/62] baseline::CVE-2022-25873::calendar-with-events.ts: round 0 tokens=3031 cost=$0.000000
+[  26/62] baseline::CVE-2022-32168::MiniDumper.cpp::Paramete round 0 tokens=1292 cost=$0.000000
+[  27/62] baseline::CVE-2023-35166::WebHome.xml::pom.xml     round 0 tokens=2302 cost=$0.000000
+[  28/62] baseline::CVE-2020-11010::executor.py::filters.py  round 0 tokens=1003 cost=$0.000000
+[  29/62] baseline::CVE-2018-18836::url.c::web_api_v1.c      round 0 tokens=961 cost=$0.000000
+[  30/62] baseline::CVE-2011-1023::ib_send.c::loop.c         round 0 tokens=4168 cost=$0.000000
+[  31/62] baseline::CVE-2020-35769::miniserv.pl::ping-monito round 0 tokens=4118 cost=$0.000000
+[  32/62] bidirectional_context::CVE-2020-7471::general.py:: round 0 tokens=1462 cost=$0.000000
+[  33/62] bidirectional_context::CVE-2020-7609::node-rules.j round 0 tokens=3435 cost=$0.000000
+[  34/62] bidirectional_context::CVE-2022-45909::drachtio.cp round 0 tokens=6721 cost=$0.000000
+[  35/62] bidirectional_context::CVE-2022-25967::file-handle round 0 tokens=6032 cost=$0.000000
+[  36/62] bidirectional_context::CVE-2022-23636::allocator.r round 0 tokens=5846 cost=$0.000000
+[  37/62] bidirectional_context::CVE-2022-25858::index.js::i round 0 tokens=5619 cost=$0.000000
+[  38/62] bidirectional_context::CVE-2022-35922::dataframe.r round 0 tokens=4111 cost=$0.000000
+[  39/62] bidirectional_context::CVE-2023-34188::http.c::mon round 0 tokens=9434 cost=$0.000000
+[  40/62] bidirectional_context::CVE-2017-15265::seq_clientm round 0 tokens=7552 cost=$0.000000
+[  41/62] bidirectional_context::CVE-2017-15265::seq_clientm round 0 tokens=7552 cost=$0.000000
+[  42/62] bidirectional_context::CVE-2020-11078::init__.py:: round 0 tokens=6765 cost=$0.000000
+[  43/62] bidirectional_context::CVE-2020-27208::device.c::f round 0 tokens=5525 cost=$0.000000
+[  44/62] bidirectional_context::CVE-2019-20892::snmp_client round 0 tokens=7776 cost=$0.000000
+[  45/62] bidirectional_context::CVE-2023-36826::artifact_lo round 0 tokens=5611 cost=$0.000000
+[  46/62] bidirectional_context::CVE-2023-36826::artifact_lo round 0 tokens=5611 cost=$0.000000
+[  47/62] bidirectional_context::CVE-2019-10793::dot-object. round 0 tokens=7190 cost=$0.000000
+[  48/62] bidirectional_context::CVE-2022-0697::helpers.py:: round 0 tokens=5646 cost=$0.000000
+[  49/62] bidirectional_context::CVE-2023-23630::file-handle round 0 tokens=6032 cost=$0.000000
+[  50/62] bidirectional_context::CVE-2023-41317::mod.rs::sub round 0 tokens=5973 cost=$0.000000
+[  51/62] bidirectional_context::CVE-2019-19922::fair.c::sch round 0 tokens=7753 cost=$0.000000
+[  52/62] bidirectional_context::CVE-2022-2084::main.py::sch round 0 tokens=6020 cost=$0.000000
+[  53/62] bidirectional_context::CVE-2020-24708::sending_pro round 0 tokens=5420 cost=$0.000000
+[  54/62] bidirectional_context::CVE-2023-32685::app.min.js: round 0 tokens=4310 cost=$0.000000
+[  55/62] bidirectional_context::CVE-2023-32685::app.min.js: round 0 tokens=4325 cost=$0.000000
+[  56/62] bidirectional_context::CVE-2014-3122::mlock.c::rma round 0 tokens=7828 cost=$0.000000
+[  57/62] bidirectional_context::CVE-2014-8509::lazy_bdecode round 0 tokens=7114 cost=$0.000000
+[  58/62] bidirectional_context::CVE-2014-9765::xdelta3-main round 0 tokens=7756 cost=$0.000000
+[  59/62] bidirectional_context::CVE-2015-5069::filesystem.c round 0 tokens=7668 cost=$0.000000
+[  60/62] bidirectional_context::CVE-2016-10270::tif_dirread round 0 tokens=6953 cost=$0.000000
+[  61/62] bidirectional_context::CVE-2017-1002150::utils.py: round 0 tokens=6396 cost=$0.000000
+[  62/62] bidirectional_context::CVE-2019-12816::Modules.cpp round 0 tokens=6989 cost=$0.000000
+
+Done.
+Run directory: results/prepared_runs/gemini3flashpreview_bidiff_repair_r0
+Results JSONL: results/prepared_runs/gemini3flashpreview_bidiff_repair_r0/results.jsonl

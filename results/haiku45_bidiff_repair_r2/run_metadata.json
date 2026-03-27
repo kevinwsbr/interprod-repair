@@ -1,0 +1,23 @@
+{
+  "run_name": "haiku45_bidiff_repair_r2",
+  "manifest": "data/manifests/20260314_194618_bidirectional_with_diff_evidence_manifest.jsonl",
+  "prompt_dir": "data/prompts/20260314_194618_bidirectional_with_diff_evidence",
+  "model": "claude-haiku-4-5",
+  "rci_rounds": 2,
+  "max_tokens": 4096,
+  "temperature": 0.0,
+  "input_cost_per_mtok": 1.0,
+  "output_cost_per_mtok": 5.0,
+  "failure_policy": "skip_on_rerun",
+  "usage_summary": {
+    "rows_completed": 169,
+    "successful_api_rows": 165,
+    "failed_api_rows": 4,
+    "parsed_rows": 135,
+    "input_tokens": 986983,
+    "output_tokens": 259782,
+    "total_tokens": 1246765,
+    "cost_usd_estimate": 2.285893,
+    "last_updated": 1773520902
+  }
+}

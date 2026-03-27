@@ -1,0 +1,71 @@
+nohup: ignoring input
+Loaded 62 manifest rows
+Results file: results/prepared_runs/haiku45_bidiff_repair_r0/results.jsonl
+Completed rounds already present: 0
+Experiments with saved API failures: 0
+[   1/62] baseline::CVE-2016-10375::VERSION::queuepush.c     round 0 tokens=275 cost=$0.000659
+[   2/62] baseline::CVE-2020-15173::l2tp_prot.h::packet.c    round 0 tokens=1348 cost=$0.004140
+[   3/62] baseline::CVE-2022-1629::textobject.c::version.c   round 0 tokens=8277 cost=$0.024661
+[   4/62] baseline::CVE-2021-34121::toc.cxx::util.cxx        round 0 tokens=3867 cost=$0.004463
+[   5/62] baseline::CVE-2022-31147::core.js::url2.js         round 0 API ERROR BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Output blocked by content filtering policy'}, 'request_id': 'req_011CZ3ZxUrsNYKUrzaWgosby'}
+[   6/62] baseline::CVE-2022-35967::quantized_activation_ops round 0 tokens=3621 cost=$0.011153
+[   7/62] baseline::CVE-2013-3076::algif_hash.c::algif_skcip round 0 tokens=6845 cost=$0.022153
+[   8/62] baseline::CVE-2023-2950::OnsiteDocumentController. round 0 tokens=5854 cost=$0.016686
+[   9/62] baseline::CVE-2022-35977::sort.c::t_string.c       round 0 tokens=3475 cost=$0.004267
+[  10/62] baseline::CVE-2015-5232::config_diff.sh::config_ge round 0 tokens=3111 cost=$0.009615
+[  11/62] baseline::CVE-2022-24863::ci.yml::swagger.go       round 0 tokens=662 cost=$0.001962
+[  12/62] baseline::CVE-2021-21296::endpoint_campaigns.go::s round 0 tokens=3450 cost=$0.011250
+[  13/62] baseline::CVE-2020-26289::date-and-time.js::date-a round 0 tokens=6767 cost=$0.020683
+[  14/62] baseline::CVE-2023-25801::fractional_avg_pool_op.c round 0 tokens=6644 cost=$0.019544
+[  15/62] baseline::CVE-2022-1031::fcn.c::var.c              round 0 tokens=8704 cost=$0.025088
+[  16/62] baseline::CVE-2021-3429::cc_set_passwords.py::util round 0 tokens=5805 cost=$0.017941
+[  17/62] baseline::CVE-2022-0645::decide.py::urls.py        round 0 tokens=3816 cost=$0.011864
+[  18/62] baseline::CVE-2019-6009::login_filter.rb::login_fi round 0 tokens=1281 cost=$0.003901
+[  19/62] baseline::CVE-2021-39187::MongoStorageAdapter.js:: round 0 tokens=6390 cost=$0.019742
+[  20/62] baseline::CVE-2014-4678::__init__.py::constants.py round 0 tokens=6541 cost=$0.020181
+[  21/62] baseline::CVE-2021-32066::imap.rb::version.h       round 0 tokens=3615 cost=$0.004899
+[  22/62] baseline::CVE-2020-36190::ra.nested-form-hooks.js: round 0 tokens=2098 cost=$0.006482
+[  23/62] baseline::CVE-2023-2327::date.js::datetime.js      round 0 tokens=3232 cost=$0.010052
+[  24/62] baseline::CVE-2022-22114::app.js::app.js           round 0 tokens=6917 cost=$0.021429
+[  25/62] baseline::CVE-2022-25873::calendar-with-events.ts: round 0 API ERROR RateLimitError: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 10,000 output tokens per minute (org: 964c927e-07c5-48b1-8526-23bf6a76ce7a, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CZ3aSvBQYonAPTvPEyyaS'}
+[  26/62] baseline::CVE-2022-32168::MiniDumper.cpp::Paramete round 0 tokens=3118 cost=$0.010518
+[  27/62] baseline::CVE-2023-35166::WebHome.xml::pom.xml     round 0 tokens=4547 cost=$0.013655
+[  28/62] baseline::CVE-2020-11010::executor.py::filters.py  round 0 tokens=1919 cost=$0.005959
+[  29/62] baseline::CVE-2018-18836::url.c::web_api_v1.c      round 0 tokens=1700 cost=$0.005196
+[  30/62] baseline::CVE-2011-1023::ib_send.c::loop.c         round 0 tokens=8618 cost=$0.025002
+[  31/62] baseline::CVE-2020-35769::miniserv.pl::ping-monito round 0 tokens=4489 cost=$0.005305
+[  32/62] bidirectional_context::CVE-2020-7471::general.py:: round 0 tokens=2671 cost=$0.007795
+[  33/62] bidirectional_context::CVE-2020-7609::node-rules.j round 0 tokens=7007 cost=$0.021183
+[  34/62] bidirectional_context::CVE-2022-45909::drachtio.cp round 0 tokens=7479 cost=$0.009091
+[  35/62] bidirectional_context::CVE-2022-25967::file-handle round 0 tokens=10502 cost=$0.026886
+[  36/62] bidirectional_context::CVE-2022-23636::allocator.r round 0 tokens=6469 cost=$0.007301
+[  37/62] bidirectional_context::CVE-2022-25858::index.js::i round 0 tokens=6139 cost=$0.008163
+[  38/62] bidirectional_context::CVE-2022-35922::dataframe.r round 0 tokens=8368 cost=$0.024752
+[  39/62] bidirectional_context::CVE-2023-34188::http.c::mon round 0 API ERROR RateLimitError: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 10,000 output tokens per minute (org: 964c927e-07c5-48b1-8526-23bf6a76ce7a, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CZ3ak3k3mMV9hz3kVFgvj'}
+⚠ bidirectional_context::CVE-2017-15265::seq_clientmgr.c::seq_ports.c: expected exactly one prompt file, found 2; skipping
+[  40/62] bidirectional_context::CVE-2017-15265::seq_clientm round 0 tokens=8725 cost=$0.012077
+[  41/62] bidirectional_context::CVE-2020-11078::init__.py:: round 0 tokens=7238 cost=$0.008202
+[  42/62] bidirectional_context::CVE-2020-27208::device.c::f round 0 tokens=9707 cost=$0.026091
+[  43/62] bidirectional_context::CVE-2019-20892::snmp_client round 0 tokens=8489 cost=$0.009861
+⚠ bidirectional_context::CVE-2023-36826::artifact_lookup.py::debug_files.py: expected exactly one prompt file, found 2; skipping
+[  44/62] bidirectional_context::CVE-2023-36826::artifact_lo round 0 tokens=9855 cost=$0.026239
+[  45/62] bidirectional_context::CVE-2019-10793::dot-object. round 0 tokens=11663 cost=$0.028047
+[  46/62] bidirectional_context::CVE-2022-0697::helpers.py:: round 0 API ERROR RateLimitError: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 10,000 output tokens per minute (org: 964c927e-07c5-48b1-8526-23bf6a76ce7a, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CZ3awKHzbZvciuk6QHQNn'}
+[  47/62] bidirectional_context::CVE-2023-23630::file-handle round 0 tokens=10502 cost=$0.026886
+[  48/62] bidirectional_context::CVE-2023-41317::mod.rs::sub round 0 tokens=9897 cost=$0.023849
+[  49/62] bidirectional_context::CVE-2019-19922::fair.c::sch round 0 tokens=8558 cost=$0.009526
+[  50/62] bidirectional_context::CVE-2022-2084::main.py::sch round 0 tokens=6879 cost=$0.009747
+[  51/62] bidirectional_context::CVE-2020-24708::sending_pro round 0 tokens=9724 cost=$0.026108
+⚠ bidirectional_context::CVE-2023-32685::app.min.js::screenshot.js: expected exactly one prompt file, found 2; skipping
+[  52/62] bidirectional_context::CVE-2023-32685::app.min.js: round 0 tokens=5724 cost=$0.010804
+[  53/62] bidirectional_context::CVE-2014-3122::mlock.c::rma round 0 tokens=8647 cost=$0.009647
+[  54/62] bidirectional_context::CVE-2014-8509::lazy_bdecode round 0 tokens=7413 cost=$0.008305
+[  55/62] bidirectional_context::CVE-2014-9765::xdelta3-main round 0 tokens=8289 cost=$0.009257
+[  56/62] bidirectional_context::CVE-2015-5069::filesystem.c round 0 tokens=8135 cost=$0.009215
+[  57/62] bidirectional_context::CVE-2016-10270::tif_dirread round 0 tokens=8768 cost=$0.010444
+[  58/62] bidirectional_context::CVE-2017-1002150::utils.py: round 0 tokens=9140 cost=$0.019408
+[  59/62] bidirectional_context::CVE-2019-12816::Modules.cpp round 0 API ERROR RateLimitError: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 10,000 output tokens per minute (org: 964c927e-07c5-48b1-8526-23bf6a76ce7a, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CZ3bDJRMKF7yqxahPVNRt'}
+
+Done.
+Run directory: results/prepared_runs/haiku45_bidiff_repair_r0
+Results JSONL: results/prepared_runs/haiku45_bidiff_repair_r0/results.jsonl

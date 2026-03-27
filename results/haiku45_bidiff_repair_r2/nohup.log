@@ -1,0 +1,185 @@
+nohup: ignoring input
+Loaded 62 manifest rows
+Results file: results/prepared_runs/haiku45_bidiff_repair_r2/results.jsonl
+Completed rounds already present: 0
+Experiments with saved API failures: 0
+[   1/186] baseline::CVE-2016-10375::VERSION::queuepush.c     round 0 tokens=275 cost=$0.000659
+[   2/186] baseline::CVE-2016-10375::VERSION::queuepush.c     round 1 tokens=649 cost=$0.001877
+[   3/186] baseline::CVE-2016-10375::VERSION::queuepush.c     round 2 tokens=835 cost=$0.001363
+[   4/186] baseline::CVE-2020-15173::l2tp_prot.h::packet.c    round 0 tokens=1358 cost=$0.004190
+[   5/186] baseline::CVE-2020-15173::l2tp_prot.h::packet.c    round 1 tokens=1838 cost=$0.003490
+[   6/186] baseline::CVE-2020-15173::l2tp_prot.h::packet.c    round 2 tokens=2559 cost=$0.005227
+[   7/186] baseline::CVE-2022-1629::textobject.c::version.c   round 0 tokens=8277 cost=$0.024661
+[   8/186] baseline::CVE-2022-1629::textobject.c::version.c   round 1 tokens=8741 cost=$0.010317
+[   9/186] baseline::CVE-2022-1629::textobject.c::version.c   round 2 tokens=12891 cost=$0.029275
+[  10/186] baseline::CVE-2021-34121::toc.cxx::util.cxx        round 0 API ERROR RateLimitError: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 10,000 output tokens per minute (org: 964c927e-07c5-48b1-8526-23bf6a76ce7a, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CZ3a9v9hfRSsi3q8uLWzi'}
+[  12/186] baseline::CVE-2021-34121::toc.cxx::util.cxx        remaining rounds skipped after API failure
+[  13/186] baseline::CVE-2022-31147::core.js::url2.js         round 0 API ERROR BadRequestError: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Output blocked by content filtering policy'}, 'request_id': 'req_011CZ3aAXQkDsxWWw4BMWmVV'}
+[  15/186] baseline::CVE-2022-31147::core.js::url2.js         remaining rounds skipped after API failure
+[  16/186] baseline::CVE-2022-35967::quantized_activation_ops round 0 tokens=3621 cost=$0.011153
+[  17/186] baseline::CVE-2022-35967::quantized_activation_ops round 1 tokens=4146 cost=$0.005978
+[  18/186] baseline::CVE-2022-35967::quantized_activation_ops round 2 tokens=6076 cost=$0.013580
+[  19/186] baseline::CVE-2013-3076::algif_hash.c::algif_skcip round 0 tokens=6837 cost=$0.022113
+[  20/186] baseline::CVE-2013-3076::algif_hash.c::algif_skcip round 1 tokens=7302 cost=$0.008894
+[  21/186] baseline::CVE-2013-3076::algif_hash.c::algif_skcip round 2 tokens=11213 cost=$0.026641
+[  22/186] baseline::CVE-2023-2950::OnsiteDocumentController. round 0 tokens=6870 cost=$0.021766
+[  23/186] baseline::CVE-2023-2950::OnsiteDocumentController. round 1 tokens=7408 cost=$0.009292
+[  24/186] baseline::CVE-2023-2950::OnsiteDocumentController. round 2 tokens=11237 cost=$0.026337
+[  25/186] baseline::CVE-2022-35977::sort.c::t_string.c       round 0 tokens=3483 cost=$0.004307
+[  26/186] baseline::CVE-2022-35977::sort.c::t_string.c       round 1 tokens=4059 cost=$0.006095
+[  27/186] baseline::CVE-2022-35977::sort.c::t_string.c       round 2 tokens=4364 cost=$0.005368
+[  28/186] baseline::CVE-2015-5232::config_diff.sh::config_ge round 0 tokens=3095 cost=$0.009535
+[  29/186] baseline::CVE-2015-5232::config_diff.sh::config_ge round 1 tokens=3572 cost=$0.005212
+[  30/186] baseline::CVE-2015-5232::config_diff.sh::config_ge round 2 tokens=5255 cost=$0.011771
+[  31/186] baseline::CVE-2022-24863::ci.yml::swagger.go       round 0 tokens=662 cost=$0.001962
+[  32/186] baseline::CVE-2022-24863::ci.yml::swagger.go       round 1 tokens=1047 cost=$0.002319
+[  33/186] baseline::CVE-2022-24863::ci.yml::swagger.go       round 2 tokens=1404 cost=$0.002616
+[  34/186] baseline::CVE-2021-21296::endpoint_campaigns.go::s round 0 tokens=3443 cost=$0.011215
+[  35/186] baseline::CVE-2021-21296::endpoint_campaigns.go::s round 1 tokens=3912 cost=$0.005520
+[  36/186] baseline::CVE-2021-21296::endpoint_campaigns.go::s round 2 tokens=5960 cost=$0.013936
+[  37/186] baseline::CVE-2020-26289::date-and-time.js::date-a round 0 tokens=6770 cost=$0.020698
+[  38/186] baseline::CVE-2020-26289::date-and-time.js::date-a round 1 tokens=7282 cost=$0.009062
+[  39/186] baseline::CVE-2020-26289::date-and-time.js::date-a round 2 tokens=10975 cost=$0.025531
+[  40/186] baseline::CVE-2023-25801::fractional_avg_pool_op.c round 0 API ERROR RateLimitError: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 10,000 output tokens per minute (org: 964c927e-07c5-48b1-8526-23bf6a76ce7a, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CZ3ap8bcc9NsK44Pe7qWz'}
+[  42/186] baseline::CVE-2023-25801::fractional_avg_pool_op.c remaining rounds skipped after API failure
+[  43/186] baseline::CVE-2022-1031::fcn.c::var.c              round 0 tokens=8704 cost=$0.025088
+[  44/186] baseline::CVE-2022-1031::fcn.c::var.c              round 1 tokens=9197 cost=$0.010889
+[  45/186] baseline::CVE-2022-1031::fcn.c::var.c              round 2 tokens=9842 cost=$0.012206
+[  46/186] baseline::CVE-2021-3429::cc_set_passwords.py::util round 0 tokens=5787 cost=$0.017851
+[  47/186] baseline::CVE-2021-3429::cc_set_passwords.py::util round 1 tokens=6282 cost=$0.007994
+[  48/186] baseline::CVE-2021-3429::cc_set_passwords.py::util round 2 tokens=9378 cost=$0.021546
+[  49/186] baseline::CVE-2022-0645::decide.py::urls.py        round 0 tokens=3816 cost=$0.011864
+[  50/186] baseline::CVE-2022-0645::decide.py::urls.py        round 1 tokens=4298 cost=$0.005958
+[  51/186] baseline::CVE-2022-0645::decide.py::urls.py        round 2 tokens=6372 cost=$0.014452
+[  52/186] baseline::CVE-2019-6009::login_filter.rb::login_fi round 0 tokens=1288 cost=$0.003936
+[  53/186] baseline::CVE-2019-6009::login_filter.rb::login_fi round 1 tokens=1786 cost=$0.003510
+[  54/186] baseline::CVE-2019-6009::login_filter.rb::login_fi round 2 tokens=2555 cost=$0.005415
+[  55/186] baseline::CVE-2021-39187::MongoStorageAdapter.js:: round 0 API ERROR RateLimitError: Error code: 429 - {'type': 'error', 'error': {'type': 'rate_limit_error', 'message': "This request would exceed your organization's rate limit of 10,000 output tokens per minute (org: 964c927e-07c5-48b1-8526-23bf6a76ce7a, model: claude-haiku-4-5-20251001). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."}, 'request_id': 'req_011CZ3b7p6Nv9Q723Bc4Qw2k'}
+[  57/186] baseline::CVE-2021-39187::MongoStorageAdapter.js:: remaining rounds skipped after API failure
+[  58/186] baseline::CVE-2014-4678::__init__.py::constants.py round 0 tokens=6595 cost=$0.020451
+[  59/186] baseline::CVE-2014-4678::__init__.py::constants.py round 1 tokens=7104 cost=$0.008872
+[  60/186] baseline::CVE-2014-4678::__init__.py::constants.py round 2 tokens=10668 cost=$0.024708
+[  61/186] baseline::CVE-2021-32066::imap.rb::version.h       round 0 tokens=3600 cost=$0.004824
+[  62/186] baseline::CVE-2021-32066::imap.rb::version.h       round 1 tokens=4076 cost=$0.005712
+[  63/186] baseline::CVE-2021-32066::imap.rb::version.h       round 2 tokens=7696 cost=$0.021960
+[  64/186] baseline::CVE-2020-36190::ra.nested-form-hooks.js: round 0 tokens=2060 cost=$0.006292
+[  65/186] baseline::CVE-2020-36190::ra.nested-form-hooks.js: round 1 tokens=2501 cost=$0.003997
+[  66/186] baseline::CVE-2020-36190::ra.nested-form-hooks.js: round 2 tokens=3589 cost=$0.007725
+[  67/186] baseline::CVE-2023-2327::date.js::datetime.js      round 0 tokens=3252 cost=$0.010152
+[  68/186] baseline::CVE-2023-2327::date.js::datetime.js      round 1 tokens=3779 cost=$0.005619
+[  69/186] baseline::CVE-2023-2327::date.js::datetime.js      round 2 tokens=5567 cost=$0.012503
+[  70/186] baseline::CVE-2022-22114::app.js::app.js           round 0 tokens=6901 cost=$0.021349
+[  71/186] baseline::CVE-2022-22114::app.js::app.js           round 1 tokens=7444 cost=$0.009348
+[  72/186] baseline::CVE-2022-22114::app.js::app.js           round 2 tokens=11103 cost=$0.025523
+[  73/186] baseline::CVE-2022-25873::calendar-with-events.ts: round 0 tokens=6791 cost=$0.021167
+[  74/186] baseline::CVE-2022-25873::calendar-with-events.ts: round 1 tokens=7328 cost=$0.009208
+[  75/186] baseline::CVE-2022-25873::calendar-with-events.ts: round 2 tokens=10979 cost=$0.025367
+[  76/186] baseline::CVE-2022-32168::MiniDumper.cpp::Paramete round 0 tokens=3119 cost=$0.010523
+[  77/186] baseline::CVE-2022-32168::MiniDumper.cpp::Paramete round 1 tokens=3658 cost=$0.005546
+[  78/186] baseline::CVE-2022-32168::MiniDumper.cpp::Paramete round 2 tokens=5688 cost=$0.013592
+[  79/186] baseline::CVE-2023-35166::WebHome.xml::pom.xml     round 0 tokens=4547 cost=$0.013655
+[  80/186] baseline::CVE-2023-35166::WebHome.xml::pom.xml     round 1 tokens=5019 cost=$0.006639
+[  81/186] baseline::CVE-2023-35166::WebHome.xml::pom.xml     round 2 tokens=7387 cost=$0.016643
+[  82/186] baseline::CVE-2020-11010::executor.py::filters.py  round 0 tokens=1923 cost=$0.005979
+[  83/186] baseline::CVE-2020-11010::executor.py::filters.py  round 1 tokens=2376 cost=$0.003920
+[  84/186] baseline::CVE-2020-11010::executor.py::filters.py  round 2 tokens=3563 cost=$0.008095
+[  85/186] baseline::CVE-2018-18836::url.c::web_api_v1.c      round 0 tokens=1701 cost=$0.005201
+[  86/186] baseline::CVE-2018-18836::url.c::web_api_v1.c      round 1 tokens=2158 cost=$0.003718
+[  87/186] baseline::CVE-2018-18836::url.c::web_api_v1.c      round 2 tokens=3134 cost=$0.006822
+[  88/186] baseline::CVE-2011-1023::ib_send.c::loop.c         round 0 tokens=8618 cost=$0.025002
+[  89/186] baseline::CVE-2011-1023::ib_send.c::loop.c         round 1 tokens=9258 cost=$0.011538
+[  90/186] baseline::CVE-2011-1023::ib_send.c::loop.c         round 2 tokens=13408 cost=$0.029792
+[  91/186] baseline::CVE-2020-35769::miniserv.pl::ping-monito round 0 tokens=4495 cost=$0.005335
+[  92/186] baseline::CVE-2020-35769::miniserv.pl::ping-monito round 1 tokens=4880 cost=$0.006152
+[  93/186] baseline::CVE-2020-35769::miniserv.pl::ping-monito round 2 tokens=9030 cost=$0.025414
+[  94/186] bidirectional_context::CVE-2020-7471::general.py:: round 0 tokens=2654 cost=$0.007710
+[  95/186] bidirectional_context::CVE-2020-7471::general.py:: round 1 tokens=3167 cost=$0.004951
+[  96/186] bidirectional_context::CVE-2020-7471::general.py:: round 2 tokens=4523 cost=$0.009631
+[  97/186] bidirectional_context::CVE-2020-7609::node-rules.j round 0 tokens=7006 cost=$0.021178
+[  98/186] bidirectional_context::CVE-2020-7609::node-rules.j round 1 tokens=7580 cost=$0.009608
+[  99/186] bidirectional_context::CVE-2020-7609::node-rules.j round 2 tokens=11672 cost=$0.027724
+[ 100/186] bidirectional_context::CVE-2022-45909::drachtio.cp round 0 tokens=7345 cost=$0.008421
+[ 101/186] bidirectional_context::CVE-2022-45909::drachtio.cp round 1 tokens=7876 cost=$0.009732
+[ 102/186] bidirectional_context::CVE-2022-45909::drachtio.cp round 2 tokens=8187 cost=$0.009115
+[ 103/186] bidirectional_context::CVE-2022-25967::file-handle round 0 tokens=10502 cost=$0.026886
+[ 104/186] bidirectional_context::CVE-2022-25967::file-handle round 1 tokens=11135 cost=$0.013387
+[ 105/186] bidirectional_context::CVE-2022-25967::file-handle round 2 tokens=15310 cost=$0.031694
+[ 106/186] bidirectional_context::CVE-2022-23636::allocator.r round 0 tokens=6490 cost=$0.007406
+[ 107/186] bidirectional_context::CVE-2022-23636::allocator.r round 1 tokens=7044 cost=$0.008992
+[ 108/186] bidirectional_context::CVE-2022-23636::allocator.r round 2 tokens=7382 cost=$0.008418
+[ 109/186] bidirectional_context::CVE-2022-25858::index.js::i round 0 tokens=6139 cost=$0.008163
+[ 110/186] bidirectional_context::CVE-2022-25858::index.js::i round 1 tokens=6692 cost=$0.008636
+[ 111/186] bidirectional_context::CVE-2022-25858::index.js::i round 2 tokens=10867 cost=$0.027251
+[ 112/186] bidirectional_context::CVE-2022-35922::dataframe.r round 0 tokens=8368 cost=$0.024752
+[ 113/186] bidirectional_context::CVE-2022-35922::dataframe.r round 1 tokens=8889 cost=$0.010693
+[ 114/186] bidirectional_context::CVE-2022-35922::dataframe.r round 2 tokens=13064 cost=$0.029448
+[ 115/186] bidirectional_context::CVE-2023-34188::http.c::mon round 0 tokens=10449 cost=$0.013697
+[ 116/186] bidirectional_context::CVE-2023-34188::http.c::mon round 1 tokens=11380 cost=$0.014836
+[ 117/186] bidirectional_context::CVE-2023-34188::http.c::mon round 2 tokens=15555 cost=$0.031939
+⚠ bidirectional_context::CVE-2017-15265::seq_clientmgr.c::seq_ports.c: expected exactly one prompt file, found 2; skipping
+[ 118/186] bidirectional_context::CVE-2017-15265::seq_clientm round 0 tokens=8747 cost=$0.012187
+[ 119/186] bidirectional_context::CVE-2017-15265::seq_clientm round 1 tokens=9386 cost=$0.011674
+[ 120/186] bidirectional_context::CVE-2017-15265::seq_clientm round 2 tokens=10403 cost=$0.014155
+[ 121/186] bidirectional_context::CVE-2020-11078::init__.py:: round 0 tokens=7174 cost=$0.007882
+[ 122/186] bidirectional_context::CVE-2020-11078::init__.py:: round 1 tokens=7754 cost=$0.009806
+[ 123/186] bidirectional_context::CVE-2020-11078::init__.py:: round 2 tokens=8088 cost=$0.009108
+[ 124/186] bidirectional_context::CVE-2020-27208::device.c::f round 0 tokens=9707 cost=$0.026091
+[ 125/186] bidirectional_context::CVE-2020-27208::device.c::f round 1 tokens=10317 cost=$0.012477
+[ 126/186] bidirectional_context::CVE-2020-27208::device.c::f round 2 tokens=14492 cost=$0.030876
+[ 127/186] bidirectional_context::CVE-2019-20892::snmp_client round 0 tokens=8355 cost=$0.009191
+[ 128/186] bidirectional_context::CVE-2019-20892::snmp_client round 1 tokens=8947 cost=$0.011047
+[ 129/186] bidirectional_context::CVE-2019-20892::snmp_client round 2 tokens=10333 cost=$0.015561
+⚠ bidirectional_context::CVE-2023-36826::artifact_lookup.py::debug_files.py: expected exactly one prompt file, found 2; skipping
+[ 130/186] bidirectional_context::CVE-2023-36826::artifact_lo round 0 tokens=9855 cost=$0.026239
+[ 131/186] bidirectional_context::CVE-2023-36826::artifact_lo round 1 tokens=10359 cost=$0.012095
+[ 132/186] bidirectional_context::CVE-2023-36826::artifact_lo round 2 tokens=14534 cost=$0.030918
+[ 133/186] bidirectional_context::CVE-2019-10793::dot-object. round 0 tokens=11663 cost=$0.028047
+[ 134/186] bidirectional_context::CVE-2019-10793::dot-object. round 1 tokens=12189 cost=$0.014013
+[ 135/186] bidirectional_context::CVE-2019-10793::dot-object. round 2 tokens=16364 cost=$0.032748
+[ 136/186] bidirectional_context::CVE-2022-0697::helpers.py:: round 0 tokens=9880 cost=$0.026264
+[ 137/186] bidirectional_context::CVE-2022-0697::helpers.py:: round 1 tokens=10528 cost=$0.012840
+[ 138/186] bidirectional_context::CVE-2022-0697::helpers.py:: round 2 tokens=14703 cost=$0.031087
+[ 139/186] bidirectional_context::CVE-2023-23630::file-handle round 0 tokens=10502 cost=$0.026886
+[ 140/186] bidirectional_context::CVE-2023-23630::file-handle round 1 tokens=11060 cost=$0.013012
+[ 141/186] bidirectional_context::CVE-2023-23630::file-handle round 2 tokens=15235 cost=$0.031619
+[ 142/186] bidirectional_context::CVE-2023-41317::mod.rs::sub round 0 tokens=9897 cost=$0.023849
+[ 143/186] bidirectional_context::CVE-2023-41317::mod.rs::sub round 1 tokens=10569 cost=$0.012989
+[ 144/186] bidirectional_context::CVE-2023-41317::mod.rs::sub round 2 tokens=14174 cost=$0.028278
+[ 145/186] bidirectional_context::CVE-2019-19922::fair.c::sch round 0 tokens=8553 cost=$0.009501
+[ 146/186] bidirectional_context::CVE-2019-19922::fair.c::sch round 1 tokens=9203 cost=$0.011535
+[ 147/186] bidirectional_context::CVE-2019-19922::fair.c::sch round 2 tokens=9763 cost=$0.011687
+[ 148/186] bidirectional_context::CVE-2022-2084::main.py::sch round 0 tokens=6666 cost=$0.008682
+[ 149/186] bidirectional_context::CVE-2022-2084::main.py::sch round 1 tokens=7393 cost=$0.010033
+[ 150/186] bidirectional_context::CVE-2022-2084::main.py::sch round 2 tokens=11568 cost=$0.027952
+[ 151/186] bidirectional_context::CVE-2020-24708::sending_pro round 0 tokens=9724 cost=$0.026108
+[ 152/186] bidirectional_context::CVE-2020-24708::sending_pro round 1 tokens=10287 cost=$0.012259
+[ 153/186] bidirectional_context::CVE-2020-24708::sending_pro round 2 tokens=14462 cost=$0.030846
+⚠ bidirectional_context::CVE-2023-32685::app.min.js::screenshot.js: expected exactly one prompt file, found 2; skipping
+[ 154/186] bidirectional_context::CVE-2023-32685::app.min.js: round 0 tokens=5724 cost=$0.010804
+[ 155/186] bidirectional_context::CVE-2023-32685::app.min.js: round 1 tokens=7425 cost=$0.013961
+[ 156/186] bidirectional_context::CVE-2023-32685::app.min.js: round 2 tokens=8856 cost=$0.014264
+[ 157/186] bidirectional_context::CVE-2014-3122::mlock.c::rma round 0 tokens=8683 cost=$0.009827
+[ 158/186] bidirectional_context::CVE-2014-3122::mlock.c::rma round 1 tokens=9289 cost=$0.011445
+[ 159/186] bidirectional_context::CVE-2014-3122::mlock.c::rma round 2 tokens=9689 cost=$0.010973
+[ 160/186] bidirectional_context::CVE-2014-8509::lazy_bdecode round 0 tokens=7413 cost=$0.008305
+[ 161/186] bidirectional_context::CVE-2014-8509::lazy_bdecode round 1 tokens=8161 cost=$0.010885
+[ 162/186] bidirectional_context::CVE-2014-8509::lazy_bdecode round 2 tokens=8739 cost=$0.010735
+[ 163/186] bidirectional_context::CVE-2014-9765::xdelta3-main round 0 tokens=8305 cost=$0.009337
+[ 164/186] bidirectional_context::CVE-2014-9765::xdelta3-main round 1 tokens=9011 cost=$0.011567
+[ 165/186] bidirectional_context::CVE-2014-9765::xdelta3-main round 2 tokens=9923 cost=$0.013255
+[ 166/186] bidirectional_context::CVE-2015-5069::filesystem.c round 0 tokens=8142 cost=$0.009250
+[ 167/186] bidirectional_context::CVE-2015-5069::filesystem.c round 1 tokens=8704 cost=$0.010684
+[ 168/186] bidirectional_context::CVE-2015-5069::filesystem.c round 2 tokens=9190 cost=$0.010818
+[ 169/186] bidirectional_context::CVE-2016-10270::tif_dirread round 0 tokens=8543 cost=$0.009319
+[ 170/186] bidirectional_context::CVE-2016-10270::tif_dirread round 1 tokens=9215 cost=$0.011635
+[ 171/186] bidirectional_context::CVE-2016-10270::tif_dirread round 2 tokens=10380 cost=$0.014724
+[ 172/186] bidirectional_context::CVE-2017-1002150::utils.py: round 0 tokens=9152 cost=$0.019468
+[ 173/186] bidirectional_context::CVE-2017-1002150::utils.py: round 1 tokens=9880 cost=$0.012524
+[ 174/186] bidirectional_context::CVE-2017-1002150::utils.py: round 2 tokens=12563 cost=$0.022979
+[ 175/186] bidirectional_context::CVE-2019-12816::Modules.cpp round 0 tokens=7777 cost=$0.008677
+[ 176/186] bidirectional_context::CVE-2019-12816::Modules.cpp round 1 tokens=8387 cost=$0.010559
+[ 177/186] bidirectional_context::CVE-2019-12816::Modules.cpp round 2 tokens=9788 cost=$0.015076
+
+Done.
+Run directory: results/prepared_runs/haiku45_bidiff_repair_r2
+Results JSONL: results/prepared_runs/haiku45_bidiff_repair_r2/results.jsonl

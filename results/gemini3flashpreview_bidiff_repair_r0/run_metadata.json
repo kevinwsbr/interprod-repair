@@ -1,0 +1,24 @@
+{
+  "run_name": "gemini3flashpreview_bidiff_repair_r0",
+  "manifest": "data/manifests/20260314_194618_bidirectional_with_diff_evidence_manifest.jsonl",
+  "prompt_dir": "data/prompts/20260314_194618_bidirectional_with_diff_evidence",
+  "provider": "gemini",
+  "model": "gemini-3-flash-preview",
+  "rci_rounds": 0,
+  "max_tokens": 4096,
+  "temperature": 0.0,
+  "input_cost_per_mtok": 0.5,
+  "output_cost_per_mtok": 3.0,
+  "failure_policy": "skip_on_rerun",
+  "usage_summary": {
+    "rows_completed": 62,
+    "successful_api_rows": 62,
+    "failed_api_rows": 0,
+    "parsed_rows": 1,
+    "input_tokens": 257729,
+    "output_tokens": 9980,
+    "total_tokens": 267709,
+    "cost_usd_estimate": 0.158805,
+    "last_updated": 1773585888
+  }
+}
